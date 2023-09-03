@@ -1,0 +1,30 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() {
+// Program to see whether the Number is an armstrong or not.
+    int number;
+    int txt;
+    cout<<"Enter a Number = \n";
+    cin>>number;
+    string Alu = to_string(number);
+    cout<< "Number of Digits in the Number = \n" << Alu.size();
+    int i = 0;
+    int digit;
+    while (i<Alu.size())
+    {
+        cout<<"\nDigit" << i+1 << "=" << Alu[i];
+        int sum = pow(digit, Alu.size());
+        i++;
+    }
+    if (
+            int sum = number) {
+        cout << "\nNumber is ARMSTRONG!!!!!!!!!!";
+    }else
+        cout << "\nNumber is not Armstrong";
+
+
+
+
+    return 0 ;
+}
